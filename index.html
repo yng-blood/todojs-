@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>project2 </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <style>
+        input[type=checkbox] {
+            accent-color: red;
+        }
+        
+        #cards {
+            width: 288px;
+            height: 250px;
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+            text-decoration: none;
+        }
+        
+        .cardview {
+            width: 28%;
+            height: 250px;
+            margin: 20px;
+            padding: 10px;
+            background-color: rgb(166, 235, 243);
+            text-decoration: none;
+            border: 3px solid black;
+        }
+        
+        .addbtn {
+            border: 0;
+            background-color: rgb(175, 12, 12);
+        }
+        
+        #togglethis {
+            background-color: rgba(11, 11, 11, 0.365);
+        }
+        
+        .boxview {
+            border: 1px solid black;
+        }
+        
+        #headingcard {
+            padding-left: 60px;
+            text-decoration-line: 10px solid blac;
+        }
+        
+        .flwin {
+            filter: brightness(120px);
+        }
+        
+        .inneraddbtn {
+            height: 35px;
+            width: 35px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="heading"> <span style="color: red;">ADII'S  </span> <span style="color: blue;"> TASK </span> LIST </nav>
+    <div class="boxx">
+        <button class="addbtn" id="displaythis"><i class="fa-solid fa-circle-plus"></i> Add New Task </button>
+        <div class="boxview">
+            <div class="cardview" style="display:inline-block">
+                <h1 id="headingcard">hellow</h1>
+                <button class="inneraddbtn" id="inneraddbtn"><i class="fa-solid fa-circle-plus"></i></button>
+                <ul type="none">
+                    <li>first </li><span id="delbtn"></span>
+                    <li>second</li><span id="delbtn"></span>
+
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    <div id="togglethis" style="display:none;">
+        <div class="flwin" id="flwin">
+            <center>
+                <div class="fl1">
+                    <span class="addn1"> Add New Items </span> <i class="fa-solid fa-xmark"></i><br><br>
+                    <br><input type="text" id="input_heading" placeholder="Learn C ++" class="input" style="
+                margin-left: 37px;">
+                    <br>
+                    <button id="button1" class="button1" style=" margin-top: 30px; margin-left: 61px;">
+                    <i class="fa-solid fa-plus" >
+                        Add item</a>
+                         <br>
+                        </i>  </button>
+
+                    <button id="button2" class="button1" style=" margin-top: 30px; margin-left: 61px;">
+                            <i class="fa-solid fa-crosss" > 
+                                CANCEL</a>
+                                 <br>
+                                </i>  </button>
+                    <br>
+            </center>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
